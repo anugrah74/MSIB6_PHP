@@ -6,8 +6,6 @@ $gender ="Laki-laki";
 
 ?>
 
-
-
 <!DOCTYPE HTML>
 <html>
 
