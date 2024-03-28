@@ -65,26 +65,26 @@
         <tbody>
             <?php
                 $nilai_mahasiswa = [
-                    ['nim' => '654563', 'nama' => 'Anugrah', 'nilai' => 80],
-                    ['nim' => '565647', 'nama' => 'Nofa', 'nilai' => 75],
-                    ['nim' => '987624', 'nama' => 'Ahmad Fahrudin', 'nilai' => 90],
-                    ['nim' => '123548', 'nama' => 'Anjar HK', 'nilai' => 55],
-                    ['nim' => '986415', 'nama' => 'Bayu Nero', 'nilai' => 70],
+                    ['nim' => '654563', 'nama' => 'Anugrah', 'nilai' => 90],
+                    ['nim' => '565647', 'nama' => 'Nofa', 'nilai' => 57],
+                    ['nim' => '987624', 'nama' => 'Ahmad Fahrudin', 'nilai' => 81],
+                    ['nim' => '123548', 'nama' => 'Anjar HK', 'nilai' => 35],
+                    ['nim' => '986415', 'nama' => 'Bayu Nero', 'nilai' => 50],
                     ['nim' => '545680', 'nama' => 'Calvin Prasetyo', 'nilai' => 85],
-                    ['nim' => '789543', 'nama' => 'Zavira rayhana', 'nilai' => 60],
-                    ['nim' => '326549', 'nama' => 'Dimas Q', 'nilai' => 95],
-                    ['nim' => '121245', 'nama' => 'Rangga ku', 'nilai' => 40],
-                    ['nim' => '123459', 'nama' => 'Ilham', 'nilai' => 88]
+                    ['nim' => '789543', 'nama' => 'Zavira rayhana', 'nilai' => 70],
+                    ['nim' => '326549', 'nama' => 'Dimas Q', 'nilai' => 68],
+                    ['nim' => '121245', 'nama' => 'Rangga ku', 'nilai' => 45],
+                    ['nim' => '123459', 'nama' => 'Ilham', 'nilai' => 40]
                 ];
 
                 function hitungGrade($nilai) {
-                    if ($nilai >= 90) {
+                    if ($nilai >= 85) {
                         return 'A';
-                    } elseif ($nilai >= 80) {
+                    } elseif ($nilai >= 75) {
                         return 'B';
-                    } elseif ($nilai >= 70) {
+                    } elseif ($nilai >= 65) {
                         return 'C';
-                    } elseif ($nilai >= 60) {
+                    } elseif ($nilai >= 45) {
                         return 'D';
                     } else {
                         return 'E';
